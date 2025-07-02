@@ -1,0 +1,37 @@
+for backend
+
+change db creadential in application.properties file
+
+=> username
+
+=> password
+
+=> and create database
+
+=> change razorpay api & secret
+
+=> give your gmail and app password
+
+=> command : chmod +x ./mvnw; ./mvnw spring-boot:run; 
+
+=> install jdk - https://jdk.java.net/23/ : export JAVA_HOME=/Users/abhinav/Downloads/jdk-23.0.2.jdk/Contents/Home; export PATH=$JAVA_HOME/bin:$PATH; source ~/.zshrc;
+java -version;
+
+=> install maven : https://maven.apache.org/download.cgi
+export MAVEN_HOME=/Users/abhinav/Downloads/apache-maven-3.9.9
+export PATH=$MAVEN_HOME/bin:$PATH
+
+mvn -version
+Since the .mvn folder is missing, let's regenerate it now. 
+mvn -N io.takari:maven:wrapper
+./mvnw clean spring-boot:run
+
+run backend
+
+
+for frontend 
+=> do npm i
+=> npm run dev 
+
+
+then signup
